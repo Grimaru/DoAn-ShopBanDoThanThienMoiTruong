@@ -1,0 +1,39 @@
+﻿@using WebDoAn__Demo1_.Models
+@model List<EcoFriendlyCategory>
+<style>
+    #div-u {
+        padding-left: 10px;
+        background-color: #31912f;
+        text-decoration: none;
+        justify-content: space-between;
+    }
+
+    .div-cate {
+        height: 30px;
+        width: 100%;
+        display: inline;
+    }
+
+        .div-cate a {
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    a:hover {
+        text-decoration: none;
+    }
+</style>
+<ul style="list-style-type: none" id="div-u">
+    @{
+        foreach (var item in Model)
+        {
+            <li class="div-cate">
+                @Html.ActionLink(item.NameCate, "Product", "Product", new { category = item.IDCate.Trim() }, "")
+            </li>
+        }
+    }
+</ul>
+

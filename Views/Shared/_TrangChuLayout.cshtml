@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="~/TrangChu/Index"><img src="@Url.Content("~/Content/images/16cede69-f3ba-4dd8-a5ce-287e39cfc472_preview_rev_1.png")" height="90" width="120" /></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="~/TrangChu/Index" style="--i:0;">Home</a>
+            <a href="~/TrangChu/About" style="--i:1;">About</a>
+            <a href="~/Product/Product" style="--i:2;">Product</a>
+            <a href="~/TrangChu/Contact" style="--i:3;">Contact</a>
+            @if (Session["NameUser"] == null)
+            {
+                <a href="~/LoginUser/Index" style="--i:4">@*<span class="glyphicon glyphicon-log-in></span>*@Login</a>
+            }
+
+            else
+            {
+                <span><text>Welcome, </text> @Session["NameUser"]</span>
+                <a href="@Url.Action("Index", "LoginUser")" style="--i:4">LogOut</a>
+            }
+        </nav>
+    </header>
+
+    <div class="parallax1">
+        <div class="caption">
+            <span class="border">HELLO! WELCOME TO OUR WEBSITE</span>
+        </div>
+    </div>
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <div>
+            <p>
+                @RenderBody()
+            </p>
+            Welcome to our eco-friendly online store, where you can find a wide range of products dedicated to preserving the environment.
+            From sustainable clothing and reusable household items to eco-conscious beauty products,
+            we offer a one-stop shop for those who want to make a positive impact on the planet.
+        </div>
+    </div>
+    <div style="color: #777; background-color: white; text-align: center; padding: 50px 80px; text-align: justify;">
+        <h1 style="text-align: center;">Video về bảo vệ môi trường</h1>
+        <div>
+            <iframe width="720" height="315" style="margin-left: 200px;" src="https://www.youtube.com/embed/j2sWY5NAQmo?si=TJGmSe2C0ECNQS4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="text-align: center;">Nguồn: Tetra Pak</p>
+        </div>
+        <div>
+            <iframe width="720" height="315" style="margin-left: 200px;" src="https://www.youtube.com/embed/4D9_xAi9Eag?si=KXnMX7H5Hf5C2Iqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="text-align: center;">Nguồn: Organic Life</p>
+        </div>
+    </div>
+    <div style="color: #777; background-color: white; text-align: center; padding: 50px 80px; text-align: justify;">
+        <h1 style="text-align: center;">Video về các sản phẩm tái chế</h1>
+        <div>
+            <iframe width="720" height="315" style="margin-left: 200px;" src="https://www.youtube.com/embed/2AM3x8z9xjE?si=3NXh5lyR-kdqgb2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="text-align: center;">Nguồn: VonWong</p>
+        </div>
+        <div>
+            <iframe width="720" height="315" style="margin-left: 200px;" src="https://www.youtube.com/embed/69ulYseL0cw?si=BNfejXT5uLbjlIEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="text-align: center;">Nguồn: Daphne Siaw</p>
+        </div>
+        <div>
+            <iframe width="720" height="315" style="margin-left: 200px;" src="https://www.youtube.com/embed/LM9nRUwOSdw?si=UGNLPFbJqHPuZK-K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="text-align: center;">Nguồn: Brothers Make</p>
+        </div>
+        <div>
+            <iframe width="720" height="315" style="margin-left: 200px;" src="https://www.youtube.com/embed/mSgN8icEqLE?si=qfWl9c0h0LjZl4PG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="text-align: center;">Nguồn: Insider Business</p>
+        </div>
+    </div>
+    <div class="parallax2">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Hãy bảo vệ trái đất khi ta còn có thể!</span>
+        </div>
+    </div>
+
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>
+            Discover our environmentally-conscious online marketplace, committed to promoting sustainable living.
+            With a curated selection of eco-friendly products,
+            we aim to empower individuals to make environmentally responsible choices.
+            Join us on our mission to protect and preserve our planet for future generations.
+        </p>
+    </div>
+
+    <div class="parallax3">
+        <div class="caption">
+            <span class="border">Hãy chung tay bảo vệ trái đất xanh này nhé!</span>
+        </div>
+    </div>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/profile.php?id=61552670008302&is_tour_dismissed=true" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Nhóm <span style="font-family: 'Open Sans';">10</span></h3>
+            <p class="footer-links">
+                <a href="~/TrangChu/Index" class="link-1">Home</a>
+                <a href="~/TrangChu/About">About</a>
+                <a href="~/Product/Product">Product</a>
+                <a href="~/TrangChu/Contact">Contact</a>
+            </p>
+            <p class="footer-company-name" style="color:white">HUFLIT 2023</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Thành phố Hồ Chí Minh</span>Trường Đại học Ngoại ngữ - Tin học (HUFLIT)</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+84 28 38 632 052</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:contact@huflit.edu.vn" style="color:white">contact@huflit.edu.vn</a></p>
+            </div>
+
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about" style="color:white">
+                <span>Thông tin về trường</span>
+                Trường chuyên đào tạo các ngành liên quan đến công nghệ thông tin, ngôn ngữ và tài chính
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

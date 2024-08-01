@@ -1,0 +1,30 @@
+﻿@model IEnumerable<WebDoAn__Demo1_.EcoFriendlyProduct>
+
+@{
+    ViewBag.Title = "InfoProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="margin-left: 15px">Danh sách sản phẩm (kèm hình ảnh)</h2>
+
+<div class="container" style="display: flex; justify-content: space-between">
+    <div class="row">
+        @foreach (var pro in Model)
+        {
+            <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="pro-card">
+                    <img src="@Url.Content("~/Content/images/"+pro.ImagePro)" height="250" width="250" />
+                    <div class="box-description">
+                        <p>Tên sản phẩm: @Html.DisplayFor(model => pro.NamePro)</p>
+                        <p>Giá: @Html.DisplayFor(model => pro.Price)đ</p>
+                        @*<p><input type="submit" value="Buy" /></p>*@
+                        <a href="#" style="margin-left: 60px">Xem thêm về sản phẩm</a>
+                        <a href="/ShoppingCart/AddtoCart/@pro.ProductID" class="btn btn-default" style="background-color: white">Buy</a>
+                    </div>      
+                   
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

@@ -1,0 +1,49 @@
+﻿@model PagedList.PagedList<EcoFriendlyProduct>
+@using WebDoAn__Demo1_.Models;
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+<style>
+    .MenuPage li {
+        display: inline;
+        background-color: white;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+</style>
+
+    <div class="container">
+        <div class="row" style="display: flex; justify-content: space-between; padding-top: 50px">
+            @foreach (var pro in Model)
+            {
+                <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="pro-card" style="margin-left: 10px; margin-right: 30px; height: 450px">
+                        <img src="@Url.Content("~/Content/images/"+pro.ImagePro)" height="250" width="250" />
+                        <div class="box-description">
+                            <p>Tên sản phẩm: @Html.DisplayFor(model => pro.NamePro)</p>
+                            <p>Giá: @Html.DisplayFor(model => pro.Price)đ</p>
+                            <div style="margin-top: 20px">
+                                <a href="#" style="margin-left: 50px; text-decoration: none; color: #337ab7">Xem thêm về sản phẩm</a>
+                            </div>
+                            <div>
+                                <a href="/ShoppingCart/AddtoCart/@pro.ProductID" class="btn btn-default" style="background-color: white; margin-top: 30px; border-color: #ccc">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div style="padding-top: 50px; padding-left: 550px">Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount</div>
+    <div class="MenuPage" style="padding-top: 30px; padding-left: 520px">
+        @Html.PagedListPager(Model, page => Url.Action("Product", new { page = page }))
+    </div>
+
+
+
+
+
+

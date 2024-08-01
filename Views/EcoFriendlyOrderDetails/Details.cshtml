@@ -1,0 +1,51 @@
+﻿@model WebDoAn__Demo1_.EcoFriendlyOrderDetail
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EcoFriendlyOrderDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnitPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcoFriendlyOrderPro.AddressDeliverry)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcoFriendlyOrderPro.AddressDeliverry)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcoFriendlyProduct.NamePro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcoFriendlyProduct.NamePro)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

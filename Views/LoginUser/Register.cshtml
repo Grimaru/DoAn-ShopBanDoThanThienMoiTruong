@@ -1,0 +1,82 @@
+﻿@model WebDoAn__Demo1_.EcoFriendlyAdminUser
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_AccessLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <!--Bootstrap-->
+    <!--style private-->
+    <link rel="stylesheet" href="~/Contents/style.css" />
+</head>
+<body>
+    <div id="form-register">
+        @using (Html.BeginForm("RegisterUser", "LoginUser", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <h2>Sign Up/ Register</h2>
+            <div class="input-box">
+                <span class="icon"></span>
+                <label>@Html.LabelFor(model => model.NameUser)</label>
+                <div>@Html.TextBoxFor(model => model.NameUser, new { @class = "input" })</div>
+                <div>@Html.ValidationMessageFor(model => model.NameUser)</div>
+                <dialog>
+                    @if (ViewBag.error != null)
+                    {
+                        <span class="field-validation-error">@ViewBag.ErrorInfo</span>
+                    }
+                </dialog>
+            </div>
+            <div class="input-box">
+                <span class="icon"></span>
+                <label>@Html.LabelFor(model => model.PasswordUser)</label>
+                <div>@Html.PasswordFor(model => model.PasswordUser, new { @class = "input" })</div>
+                <div>@Html.ValidationMessageFor(model => model.PasswordUser)</div>
+                <div class="error-class">
+                    @*<label class="field-validation-error">
+                            @Html.DisplayFor(m => m.LoginErrorMessage)
+                        </label>*@
+                    <label class="field-validation-error">
+                        @if (@ViewBag.ErrorInfo != null)
+                        {
+                            @ViewBag.ErrorInfo
+                        }
+                    </label>
+                </div>
+            </div>
+            <div class="input-box">
+                <span class="icon"></span>
+                <label>@Html.LabelFor(model => model.ConfirmPassword)</label>
+                <div>@Html.PasswordFor(model => model.ConfirmPassword, new { @class = "input" })</div>
+                <div>@Html.ValidationMessageFor(model => model.ConfirmPassword)</div>
+                <div class="error-class">
+                    @*<label class="field-validation-error">
+                            @Html.DisplayFor(m => m.LoginErrorMessage)
+                        </label>*@
+                    <label class="field-validation-error">
+                        @if (@ViewBag.ErrorInfo != null)
+                        {
+                            @ViewBag.ErrorInfo
+                        }
+                    </label>
+                </div>
+            </div>
+            <div style="transform: translateY(50%)">
+                <input class="btn" type="submit" value="Register/Sign up" />
+            </div>
+            <div class="login-register" style="transform: translateY(100%)">
+                <p>Already have an account? <a href="@Url.Action("Index","LoginUser")">Login</a></p>
+            </div>
+        }
+    </div>
+</body>
+</html>

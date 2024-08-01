@@ -1,0 +1,107 @@
+﻿@model WebDoAn__Demo1_.Models.Cart
+
+@{
+    ViewBag.Title = "ShowCart";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<h2>ShowCart</h2>
+<head>
+    <style>
+        body {
+            height: 1000px;
+        }
+    </style>
+</head>
+
+<h2>ShowToCart</h2>
+<a href="@Url.Action("Product","Product")">Continue to Shopping</a>
+@if (Model != null)
+{
+    @Html.AntiForgeryToken()
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Sum</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Items)
+            {
+                double total = Convert.ToDouble(item._quantity *
+                    item._product.Price.Value);
+
+                <tr>
+                    @*<td>@item._product.NamePro</td>*@
+                    <td>@Html.DisplayFor(model => item._product.NamePro)</td>
+                    <td>
+                        <img src="@Url.Content("~/content/images/"+item._product.ImagePro)"
+                             style="height:50px;width:50px;" />
+
+                    </td>
+                    <td>@Html.DisplayFor(model => item._product.Price)</td>
+
+                    <td>
+                        @using (Html.BeginForm("Update_Cart_Quantity", "ShoppingCart"))
+                        {
+                            <input type="number" value="@item._quantity" name="Quantity" />
+                            <input type="hidden" value="@item._product.ProductID" name="ID_Product" />
+                            <input type="submit" value="Update" />
+                        }
+
+                    </td>
+                    <td>Total: @total</td>
+                    <td>
+                        <a href="/ShoppingCart/RemoveCart/@item._product.ProductID">Remove</a>
+                    </td>
+                </tr>
+
+
+            }
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" style="text-align:right">Sum Total: @Model.Total_Money()</td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4">
+                    @using (Html.BeginForm("CheckOut", "ShoppingCart"))
+                    {
+                        <table style="border-collapse:separate; border-spacing:5px;">
+                            <tr>
+                                <td>Code Customer:</td>
+                                <td><input type="number" name="CodeCus" required /></td>
+                            </tr>
+                            <tr>
+                                <td>Address Delivery:</td>
+                                <td><input type="text" name="Address" required /></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="CheckOut" class="btn btn-success" />
+                                    <a href="@Url.Action("Create", "EcoFriendlyCustomers")" class="btn btn-success">Register</a>
+                                </td>
+                            </tr>
+                        </table>
+                    }
+                </td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+
+}
+else
+{
+    @Html.Partial("EmptyCart")
+}
