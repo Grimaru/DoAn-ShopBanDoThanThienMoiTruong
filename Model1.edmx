@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBEcoFriendlyStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="EcoFriendlyAdminUser">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="NameUser" Type="nvarchar(max)" />
+          <Property Name="RoleUser" Type="nvarchar(max)" />
+          <Property Name="PasswordUser" Type="nchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyCategory">
+          <Key>
+            <PropertyRef Name="IDCate" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDCate" Type="nchar" MaxLength="20" Nullable="false" />
+          <Property Name="NameCate" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyCustomer">
+          <Key>
+            <PropertyRef Name="IDCus" />
+          </Key>
+          <Property Name="IDCus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameCus" Type="nvarchar(max)" />
+          <Property Name="PhoneCus" Type="nvarchar" MaxLength="15" />
+          <Property Name="EmailCus" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyOrderDetail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDProduct" Type="int" />
+          <Property Name="IDOrder" Type="int" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="UnitPrice" Type="float" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyOrderPro">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateOrder" Type="date" />
+          <Property Name="IDCus" Type="int" />
+          <Property Name="AddressDeliverry" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyProducts">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NamePro" Type="nvarchar(max)" />
+          <Property Name="DecriptionPro" Type="nvarchar(max)" />
+          <Property Name="Category" Type="nchar" MaxLength="20" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ImagePro" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK__EcoFriend__IDCus__403A8C7D">
+          <End Role="EcoFriendlyCustomer" Type="Self.EcoFriendlyCustomer" Multiplicity="0..1" />
+          <End Role="EcoFriendlyOrderPro" Type="Self.EcoFriendlyOrderPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyCustomer">
+              <PropertyRef Name="IDCus" />
+            </Principal>
+            <Dependent Role="EcoFriendlyOrderPro">
+              <PropertyRef Name="IDCus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EcoFriend__IDOrd__440B1D61">
+          <End Role="EcoFriendlyOrderPro" Type="Self.EcoFriendlyOrderPro" Multiplicity="0..1" />
+          <End Role="EcoFriendlyOrderDetail" Type="Self.EcoFriendlyOrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyOrderPro">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EcoFriendlyOrderDetail">
+              <PropertyRef Name="IDOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EcoFriend__IDPro__4316F928">
+          <End Role="EcoFriendlyProducts" Type="Self.EcoFriendlyProducts" Multiplicity="0..1" />
+          <End Role="EcoFriendlyOrderDetail" Type="Self.EcoFriendlyOrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyProducts">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="EcoFriendlyOrderDetail">
+              <PropertyRef Name="IDProduct" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Pro_Category">
+          <End Role="EcoFriendlyCategory" Type="Self.EcoFriendlyCategory" Multiplicity="0..1" />
+          <End Role="EcoFriendlyProducts" Type="Self.EcoFriendlyProducts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyCategory">
+              <PropertyRef Name="IDCate" />
+            </Principal>
+            <Dependent Role="EcoFriendlyProducts">
+              <PropertyRef Name="Category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBEcoFriendlyStoreModelStoreContainer">
+          <EntitySet Name="EcoFriendlyAdminUser" EntityType="Self.EcoFriendlyAdminUser" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EcoFriendlyCategory" EntityType="Self.EcoFriendlyCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EcoFriendlyCustomer" EntityType="Self.EcoFriendlyCustomer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EcoFriendlyOrderDetail" EntityType="Self.EcoFriendlyOrderDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EcoFriendlyOrderPro" EntityType="Self.EcoFriendlyOrderPro" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EcoFriendlyProducts" EntityType="Self.EcoFriendlyProducts" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__EcoFriend__IDCus__403A8C7D" Association="Self.FK__EcoFriend__IDCus__403A8C7D">
+            <End Role="EcoFriendlyCustomer" EntitySet="EcoFriendlyCustomer" />
+            <End Role="EcoFriendlyOrderPro" EntitySet="EcoFriendlyOrderPro" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EcoFriend__IDOrd__440B1D61" Association="Self.FK__EcoFriend__IDOrd__440B1D61">
+            <End Role="EcoFriendlyOrderPro" EntitySet="EcoFriendlyOrderPro" />
+            <End Role="EcoFriendlyOrderDetail" EntitySet="EcoFriendlyOrderDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EcoFriend__IDPro__4316F928" Association="Self.FK__EcoFriend__IDPro__4316F928">
+            <End Role="EcoFriendlyProducts" EntitySet="EcoFriendlyProducts" />
+            <End Role="EcoFriendlyOrderDetail" EntitySet="EcoFriendlyOrderDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Pro_Category" Association="Self.FK_Pro_Category">
+            <End Role="EcoFriendlyCategory" EntitySet="EcoFriendlyCategory" />
+            <End Role="EcoFriendlyProducts" EntitySet="EcoFriendlyProducts" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBEcoFriendlyStoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="EcoFriendlyAdminUser">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="NameUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RoleUser" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PasswordUser" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyCategory">
+          <Key>
+            <PropertyRef Name="IDCate" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDCate" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="NameCate" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EcoFriendlyProducts" Relationship="Self.FK_Pro_Category" FromRole="EcoFriendlyCategory" ToRole="EcoFriendlyProducts" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyCustomer">
+          <Key>
+            <PropertyRef Name="IDCus" />
+          </Key>
+          <Property Name="IDCus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneCus" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EmailCus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EcoFriendlyOrderProes" Relationship="Self.FK__EcoFriend__IDCus__403A8C7D" FromRole="EcoFriendlyCustomer" ToRole="EcoFriendlyOrderPro" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyOrderDetail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDProduct" Type="Int32" />
+          <Property Name="IDOrder" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="UnitPrice" Type="Double" />
+          <NavigationProperty Name="EcoFriendlyOrderPro" Relationship="Self.FK__EcoFriend__IDOrd__440B1D61" FromRole="EcoFriendlyOrderDetail" ToRole="EcoFriendlyOrderPro" />
+          <NavigationProperty Name="EcoFriendlyProduct" Relationship="Self.FK__EcoFriend__IDPro__4316F928" FromRole="EcoFriendlyOrderDetail" ToRole="EcoFriendlyProducts" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyOrderPro">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateOrder" Type="DateTime" Precision="0" />
+          <Property Name="IDCus" Type="Int32" />
+          <Property Name="AddressDeliverry" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EcoFriendlyCustomer" Relationship="Self.FK__EcoFriend__IDCus__403A8C7D" FromRole="EcoFriendlyOrderPro" ToRole="EcoFriendlyCustomer" />
+          <NavigationProperty Name="EcoFriendlyOrderDetails" Relationship="Self.FK__EcoFriend__IDOrd__440B1D61" FromRole="EcoFriendlyOrderPro" ToRole="EcoFriendlyOrderDetail" />
+        </EntityType>
+        <EntityType Name="EcoFriendlyProduct">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NamePro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DecriptionPro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Category" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ImagePro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EcoFriendlyCategory" Relationship="Self.FK_Pro_Category" FromRole="EcoFriendlyProducts" ToRole="EcoFriendlyCategory" />
+          <NavigationProperty Name="EcoFriendlyOrderDetails" Relationship="Self.FK__EcoFriend__IDPro__4316F928" FromRole="EcoFriendlyProducts" ToRole="EcoFriendlyOrderDetail" />
+        </EntityType>
+        <Association Name="FK_Pro_Category">
+          <End Role="EcoFriendlyCategory" Type="Self.EcoFriendlyCategory" Multiplicity="0..1" />
+          <End Role="EcoFriendlyProducts" Type="Self.EcoFriendlyProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyCategory">
+              <PropertyRef Name="IDCate" />
+            </Principal>
+            <Dependent Role="EcoFriendlyProducts">
+              <PropertyRef Name="Category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EcoFriend__IDCus__403A8C7D">
+          <End Role="EcoFriendlyCustomer" Type="Self.EcoFriendlyCustomer" Multiplicity="0..1" />
+          <End Role="EcoFriendlyOrderPro" Type="Self.EcoFriendlyOrderPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyCustomer">
+              <PropertyRef Name="IDCus" />
+            </Principal>
+            <Dependent Role="EcoFriendlyOrderPro">
+              <PropertyRef Name="IDCus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EcoFriend__IDOrd__440B1D61">
+          <End Role="EcoFriendlyOrderPro" Type="Self.EcoFriendlyOrderPro" Multiplicity="0..1" />
+          <End Role="EcoFriendlyOrderDetail" Type="Self.EcoFriendlyOrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyOrderPro">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EcoFriendlyOrderDetail">
+              <PropertyRef Name="IDOrder" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EcoFriend__IDPro__4316F928">
+          <End Role="EcoFriendlyProducts" Type="Self.EcoFriendlyProduct" Multiplicity="0..1" />
+          <End Role="EcoFriendlyOrderDetail" Type="Self.EcoFriendlyOrderDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EcoFriendlyProducts">
+              <PropertyRef Name="ProductID" />
+            </Principal>
+            <Dependent Role="EcoFriendlyOrderDetail">
+              <PropertyRef Name="IDProduct" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBEcoFriendlyStoreEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="EcoFriendlyAdminUsers" EntityType="Self.EcoFriendlyAdminUser" />
+          <EntitySet Name="EcoFriendlyCategories" EntityType="Self.EcoFriendlyCategory" />
+          <EntitySet Name="EcoFriendlyCustomers" EntityType="Self.EcoFriendlyCustomer" />
+          <EntitySet Name="EcoFriendlyOrderDetails" EntityType="Self.EcoFriendlyOrderDetail" />
+          <EntitySet Name="EcoFriendlyOrderProes" EntityType="Self.EcoFriendlyOrderPro" />
+          <EntitySet Name="EcoFriendlyProducts" EntityType="Self.EcoFriendlyProduct" />
+          <AssociationSet Name="FK_Pro_Category" Association="Self.FK_Pro_Category">
+            <End Role="EcoFriendlyCategory" EntitySet="EcoFriendlyCategories" />
+            <End Role="EcoFriendlyProducts" EntitySet="EcoFriendlyProducts" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EcoFriend__IDCus__403A8C7D" Association="Self.FK__EcoFriend__IDCus__403A8C7D">
+            <End Role="EcoFriendlyCustomer" EntitySet="EcoFriendlyCustomers" />
+            <End Role="EcoFriendlyOrderPro" EntitySet="EcoFriendlyOrderProes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EcoFriend__IDOrd__440B1D61" Association="Self.FK__EcoFriend__IDOrd__440B1D61">
+            <End Role="EcoFriendlyOrderPro" EntitySet="EcoFriendlyOrderProes" />
+            <End Role="EcoFriendlyOrderDetail" EntitySet="EcoFriendlyOrderDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EcoFriend__IDPro__4316F928" Association="Self.FK__EcoFriend__IDPro__4316F928">
+            <End Role="EcoFriendlyProducts" EntitySet="EcoFriendlyProducts" />
+            <End Role="EcoFriendlyOrderDetail" EntitySet="EcoFriendlyOrderDetails" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBEcoFriendlyStoreModelStoreContainer" CdmEntityContainer="DBEcoFriendlyStoreEntities">
+          <EntitySetMapping Name="EcoFriendlyAdminUsers">
+            <EntityTypeMapping TypeName="DBEcoFriendlyStoreModel.EcoFriendlyAdminUser">
+              <MappingFragment StoreEntitySet="EcoFriendlyAdminUser">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NameUser" ColumnName="NameUser" />
+                <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
+                <ScalarProperty Name="PasswordUser" ColumnName="PasswordUser" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EcoFriendlyCategories">
+            <EntityTypeMapping TypeName="DBEcoFriendlyStoreModel.EcoFriendlyCategory">
+              <MappingFragment StoreEntitySet="EcoFriendlyCategory">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IDCate" ColumnName="IDCate" />
+                <ScalarProperty Name="NameCate" ColumnName="NameCate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EcoFriendlyCustomers">
+            <EntityTypeMapping TypeName="DBEcoFriendlyStoreModel.EcoFriendlyCustomer">
+              <MappingFragment StoreEntitySet="EcoFriendlyCustomer">
+                <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+                <ScalarProperty Name="NameCus" ColumnName="NameCus" />
+                <ScalarProperty Name="PhoneCus" ColumnName="PhoneCus" />
+                <ScalarProperty Name="EmailCus" ColumnName="EmailCus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EcoFriendlyOrderDetails">
+            <EntityTypeMapping TypeName="DBEcoFriendlyStoreModel.EcoFriendlyOrderDetail">
+              <MappingFragment StoreEntitySet="EcoFriendlyOrderDetail">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+                <ScalarProperty Name="IDOrder" ColumnName="IDOrder" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EcoFriendlyOrderProes">
+            <EntityTypeMapping TypeName="DBEcoFriendlyStoreModel.EcoFriendlyOrderPro">
+              <MappingFragment StoreEntitySet="EcoFriendlyOrderPro">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="DateOrder" ColumnName="DateOrder" />
+                <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+                <ScalarProperty Name="AddressDeliverry" ColumnName="AddressDeliverry" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EcoFriendlyProducts">
+            <EntityTypeMapping TypeName="DBEcoFriendlyStoreModel.EcoFriendlyProduct">
+              <MappingFragment StoreEntitySet="EcoFriendlyProducts">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="NamePro" ColumnName="NamePro" />
+                <ScalarProperty Name="DecriptionPro" ColumnName="DecriptionPro" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="ImagePro" ColumnName="ImagePro" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
