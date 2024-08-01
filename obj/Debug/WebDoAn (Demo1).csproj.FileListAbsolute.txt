@@ -1,0 +1,253 @@
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).pdb
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.rsp
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.rsp
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Managed.Core.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.AppContext.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Collections.Immutable.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Console.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Globalization.Calendars.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.IO.Compression.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.IO.FileSystem.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Net.Http.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Net.Sockets.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Reflection.Metadata.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.ValueTuple.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Xml.XmlDocument.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Xml.XPath.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.rsp
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\VBCSCompiler.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\VBCSCompiler.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.Web.Infrastructure.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebGrease.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.pdb
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.AssemblyReference.cache
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.CoreCompileInputs.cache
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).pdb
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).pdb
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.rsp
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.rsp
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Managed.Core.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Collections.Immutable.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Reflection.Metadata.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.rsp
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\VBCSCompiler.exe
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\VBCSCompiler.exe.config
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.Web.Infrastructure.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebGrease.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.pdb
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.CoreCompileInputs.cache
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).pdb
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Buffers.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Memory.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Numerics.Vectors.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.SqlServer.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.SqlServer.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.Mvc.dll
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.Mvc.xml
+D:\University Life\Lectures\Lập trình trên web\Lí thuyết\Theorical Class Homework\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.AssemblyReference.cache
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll.config
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).pdb
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.SqlServer.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.Web.Infrastructure.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.Mvc.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebGrease.dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.SqlServer.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.Mvc.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.xml
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.pdb
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.AssemblyReference.cache
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.CoreCompileInputs.cache
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn .D209AE12.Up2Date
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).dll
+E:\Lập trình trên web\Lập trình trên web\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).pdb
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll.config
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebDoAn (Demo1).pdb
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Buffers.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Memory.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn .D209AE12.Up2Date
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).dll
+C:\Users\Admin\Desktop\Đồ án\Đồ án\WebDoAn (Demo1)\WebDoAn (Demo1)\WebDoAn (Demo1)\obj\Debug\WebDoAn (Demo1).pdb
